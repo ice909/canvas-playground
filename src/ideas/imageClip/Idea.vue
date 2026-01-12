@@ -5,7 +5,7 @@ import { Cropper } from "./cropper";
 const imageCanvas = ref<HTMLCanvasElement | null>(null);
 const maskCanvas = ref<HTMLCanvasElement | null>(null);
 
-const imageUrl = `/img1.webp`;
+const imageUrl = `./img1.webp`;
 
 onMounted(async () => {
   const cropper = new Cropper(
